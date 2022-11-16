@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote do Pai</title>
+
+    <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_atuqEWkIR5Jm0TZxE2QEI");
+        })();
+    </script>
+    <script type="text/javascript">
+        const service_id = 'default_service'
+        const template_id = 'quotes-do-pai'
+
+        window.onload = function() {
+            const resultado = document.getElementById("resultado")
+
+            document.getElementById('novas-quotes').addEventListener('submit', function(event) {
+                event.preventDefault();
+                
+                emailjs.sendForm(service_id, template_id, this)
+                    .then(function() {
+                        resultado.innerText = "Enviado com sucesso!"
+                    }, function(error) {
+                        resultado.innerText = "Houve um problema :b"
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <section class="submeter">
+            <p>Para submeter novas quotes, basta escrevê-las no seguinte formato e enviá-las:</p>
+
+            <pre class="modelo-quotes">
+"Minha quote preferida do dia de hoje",
+"Aquela outra quote fantástica",
+"A última antes de acabar a aula",
+            </pre>
+
+            <p>
+                Ou seja, basta escrever <span class="monospace">"quote",[ENTER]</span> para cada quote que queiras enviar! É semelhante aos elementos de uma lista em Python.
+            </p>
+
+            <form id="novas-quotes">
+                <label for="texto">Escreve aqui as quotes:</label><br>
+                <textarea name="texto" id="texto" cols="100" rows="20"></textarea><br>
+
+                
+                <input type="submit" value="Enviar">
+            </form>
+            <p id="resultado"></p>
+            
+            <div class="letras-pequenas">
+                <p>
+                    As quotes vão ser revistas antes de serem adicionadas ao site, mas este sistema vai funcionar à base da confiança!
+                </p>
+                <p>
+                    Se não te importares, identifica-te depois das quotes para o caso de haver dúvidas sobre a sua autenticidade.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="submeter"><a href="index.html">Página principal</a> | <a href="submeter.html">Submeter quotes</a></p>
+    </footer>
+</body>
+</html>

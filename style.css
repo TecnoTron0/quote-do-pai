@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    width: 95%;
+}
+
+
+section.submeter {
+    font-size: 2em;
+}
+section.submeter > pre {
+    margin-top: 100px;
+}
+section.submeter > form {
+    margin-top: 120px;
+}
+section.submeter > form > textarea {
+    margin-top: 20px;
+    resize: both;
+}
+section.submeter > form > input {
+    font-size: 0.8em;
+}
+
+
+section.as-quotes {
+    font-size: max(1.8em, 3.5vw);
+}
+section.as-quotes > p {
+    margin-top: min(200px, 20%);
+}
+section.as-quotes > p:last-child {
+    font-family: 'Imperial Script', cursive;
+}
+
+div.letras-pequenas {
+    font-size: 0.5em;
+}
+
+footer {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+}
+footer > p {
+    text-align: center;
+    margin-top: 30px;
+}
+footer > p.submeter > a {
+    color: white;
+    text-decoration: none;
+}
+footer > p.submeter > a:hover {
+    text-decoration: underline white;
+}
+
+span.monospace {
+    font-family: monospace;
+}
