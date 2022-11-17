@@ -117,7 +117,14 @@ const quotes = [
     "Nas árvores não está lá centímetros, decímetros e metros",
     "Mesmo quem não gosta pode por manteiga que é bom",
     "Você bem que usa a técnica do apagador ou não usa. Isso tem copyright",
-    "Aqui é clássica! (diz, olhando para um gato que entrou no exame de Mecânica Analítica)"
+    "Aqui é clássica! (diz, olhando para um gato que entrou no exame de Mecânica Analítica)",
+    "A gente não pode ser como o Peter Pan, ser pequenino toda a vida.",
+    "Antigamente, as pessoas eram ensinadas a serem neuróticas. Agora, são educadas a ser narcisistas.",
+    "Isso é o quê? Um hieróglifo egipcio? Não sou propriamente um egitólogo. Isso já está fora do meu alcance.",
+    "A homogeneidade está na moda. Agora, querem se convencer que não têm nada entre as pernas.",
+    "Você é grande, mas aqui o tamanho não importa. Serve tudo para a mesma função.",
+    "Eu aqui não deixo ninguém desamparado, sou como uma boa mãe. Ou como um bom pai, castigo!",
+    "Vocês parecem velhinhos, todos na retranca. Deixem a juventude divertir-se. Vocês que idade têm? 75?",
 ]
 
 const target = document.getElementById("quote")
