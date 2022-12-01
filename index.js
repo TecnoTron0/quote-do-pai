@@ -125,6 +125,15 @@ const quotes = [
     "Você é grande, mas aqui o tamanho não importa. Serve tudo para a mesma função.",
     "Eu aqui não deixo ninguém desamparado, sou como uma boa mãe. Ou como um bom pai, castigo!",
     "Vocês parecem velhinhos, todos na retranca. Deixem a juventude divertir-se. Vocês que idade têm? 75?",
+    "Nós já não somos meninos, apesar de virmos de calcõeszinhos para as aulas. É para mostrar os pelos?Elas gostam disso? (olha para a única rapariga na sala) Ela não está a prestar atenção...",
+    "Portanto, os primeiros dois exercícios são de mão beijada… Mas é preciso saber beijar… e isso treina-se em casa.",
+    "Já dizia o nosso presidente: só dança quem está na roda. E ele é um homem que sabe",
+    "Vocês controlem a hora disto porque eu não programei o meu bicharoco",
+    "[massa por unidade de comprimento] mede o alentejano da corda, isto é, a inércia da corda",
+    "Primeira lei da termodinâmica: tudo se paga neste mundo",
+    "Pergunte ao seu colega. Ele é que é o mestre da culinária.(começa a assobiar a música)",
+    "Quem aprendeu a conduzir um Fiat 500, não tem dificuldade em conduzir um Lamborghini. Mas que é diferente, é!",
+    "Eu não tenho qualidade de puro. Puro, perfeito e omnipotente. Tenho as minhas limitações.",
 ]
 
 const target = document.getElementById("quote")
