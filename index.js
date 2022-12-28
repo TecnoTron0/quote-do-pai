@@ -224,7 +224,7 @@ const target = document.getElementById("quote")
 const numQuotes = document.getElementById("num-quotes")
 const numDesta = document.getElementById("num-desta")
 
-let quoteEscolhida = Math.floor(Math.rand,o* quotes.length)
+let quoteEscolhida = Math.floor(Math.random() * quotes.length)
 
 target.innerText = quotes[quoteEscolhida]
 numQuotes.innerText = String(quotes.length)
