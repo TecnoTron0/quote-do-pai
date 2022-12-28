@@ -125,7 +125,7 @@ const quotes = [
     "Você é grande, mas aqui o tamanho não importa. Serve tudo para a mesma função.",
     "Eu aqui não deixo ninguém desamparado, sou como uma boa mãe. Ou como um bom pai, castigo!",
     "Vocês parecem velhinhos, todos na retranca. Deixem a juventude divertir-se. Vocês que idade têm? 75?",
-    "Nós já não somos meninos, apesar de virmos de calcõeszinhos para as aulas. É para mostrar os pelos?Elas gostam disso? (olha para a única rapariga na sala) Ela não está a prestar atenção...",
+    "Nós já não somos meninos, apesar de virmos de calcõeszinhos para as aulas. É para mostrar os pelos?Elas gostam disso? (olha para a única rapariga na s,aEla não está a prestar atenção...",
     "Portanto, os primeiros dois exercícios são de mão beijada… Mas é preciso saber beijar… e isso treina-se em casa.",
     "Já dizia o nosso presidente: só dança quem está na roda. E ele é um homem que sabe",
     "Vocês controlem a hora disto porque eu não programei o meu bicharoco",
@@ -147,13 +147,54 @@ const quotes = [
     "A população Portuguesa já não se reproduz, só criam cães e gatos",
     "Não é por verem muitos filmes que ficam realizadores",
     "A sedução não é sexo, é muito mais!",
+    "Exames com consulta… Hã? Fixe né?",
+    "Nenhuma casa funciona sem as regras da casa",
+    "Os alunos têm de estar preparadinhos da silva…",
+    "Elas não mordem, são mansinhas",
+    "Houve um gajo… um cara, como os brasileiros",
+    "Tudo começa nos gregos, não é? Nos gregos, nos chineses… Nessa porcaria toda",
+    "Charles Augustin de Coulomb, français. Ainda o Brasil não era independente",
+    "Tem ali uma coisa que não interessa a ninguém a não ser ao dito cujo… Morreu de cancro…",
+    "A matemática é nossa amiga mas tem de ser tratada com respeito. Se não for tratada com respeito ela vira-se contra nós",
+    "E como não podia deixar de ser, temos o Tio Alberto",
+    "Não viu, vai ver agora. Não sabia, vai ter de aprender",
+    "Está absolutamente a leste do paraíso",
+    "Estão carecas de saber… Mais do que eu",
+    "É uma expressão que a gente vai usar… Com fartura, com fartura",
+    "Aqui como já temos meninos grandes e meninas…",
+    "Representar um vetor sem o traço ou a seta é disparate",
+    "Não há almoços de borla",
+    "Como sabem a inflação é galopante, o Covid foi uma desgraça, e não há dinheiro",
+    "Não me peçam para dar cabo da minha saúde com contas escusadas",
+    "A seu tempo e a doses homeopáticas, vocês vão engolir isto tudo",
+    "A vara é sua, a vara do poder",
+    "A partir daqui tudo é fácil, a vida é uma alegria",
+    "Mas este aqui não foi para vocês, foi a pedido especial do vosso colega. Soft, não é?",
+    "Somar bocadinhos sei que dá um bocadão",
+    "É leite inteiro. Os que tiverem intolerância à lactose vão sentir dificuldade",
+    "Ainda me acusam de criançofilia",
+    "Posso mexer no seu computador, professor? PODE, ENTÃO NÃO PODE? ISSO SÓ TEM UMAS IMAGENS AÍ UM BOCADO AFLITIVAS, MAS VOCÊ FECHE OS OLHOS",
+    "Andam a criar físicos poetas em vez de físicos que fazem contas",
+    "A conta pode ser do camano, nós não temos dentes para aquilo",
+    "Agora o resto é matemática, entendam-se lá com os gajos da matemática",
+    "Era um referencial e dava para tudo, daqui até à China",
+    "Agora até nos balneários se põe como quem não quer coisa em videoconferência… Sempre com sotaque brasileiro. Deve ser um fetiche qualquer",
+    "Meus caros, a dificuldade do programa não fui eu que a escolhi",
+    "Hoje em dia já nem se pode bater em crianças… Mas torturar psicologicamente, isso já pode",
+    "Se se preparam bem, depois já não dói nada",
+    "Mas já vai de garrafa na mão?",
+    "É do primeiro ano? E veio a uma aula do segundo? Isso é que é vontade de crescer!",
+    "A gente pega, e pimba, pimba. Pimba, pimba",
+    "(Em relação a Eletromagnetismo II) É isto que faz com que se tenha de prolongar as 4 semanas para as 12 semanas, a não ser que haja aborto",
+    "Bem, é tudo por hoje. Vemo-nos... Daqui a duas semanas, não é? Eheh... Vão fazer jardinagem, não é? Colher ovos eheh",
+    "A homogeneidade está na moda hoje em dia. Agora querem convencer-se que não têm nada entre as pernas.",
 ]
 
 const target = document.getElementById("quote")
 const numQuotes = document.getElementById("num-quotes")
 const numDesta = document.getElementById("num-desta")
 
-let quoteEscolhida = Math.floor(Math.random() * quotes.length)
+let quoteEscolhida = Math.floor(Math.rand,o* quotes.length)
 
 target.innerText = quotes[quoteEscolhida]
 numQuotes.innerText = String(quotes.length)
