@@ -224,8 +224,42 @@ const target = document.getElementById("quote")
 const numQuotes = document.getElementById("num-quotes")
 const numDesta = document.getElementById("num-desta")
 
-let quoteEscolhida = Math.floor(Math.random() * quotes.length)
+// Número total de quotes
+numDesta.max = String(quotes.length)
 
+
+// Escolher a quote
+let id = window.location.search.replace(/^\?/,'').replace(/\+/g,' ').split("=");
+
+let quoteEscolhida = -1
+if (id.length > 1) {
+    quoteEscolhida = Number(id[1]) - 1
+
+}
+
+if (quoteEscolhida < Number(numDesta.min) || quoteEscolhida >= Number(numDesta.max)) {
+    quoteEscolhida = Math.floor(Math.random() * quotes.length)
+}
+
+
+// Atualizar o texto e o id da quote
 target.innerText = quotes[quoteEscolhida]
 numQuotes.innerText = String(quotes.length)
-numDesta.innerText = String(quoteEscolhida + 1)
+numDesta.value = String(quoteEscolhida + 1)
+
+
+// Ver o input do utilizador
+numDesta.onchange = () => {
+    let choice = Number(numDesta.value)
+    let link = window.location.href
+
+    if (id.length > 0) {
+        link = link.split("?")
+        window.location.href = `${link[0]}?id=${choice}`
+    } else {
+        window.location.href = `${link}?id=${choice}`
+    }
+    
+    console.log()
+    console.log(`Change! ${choice}`)
+}

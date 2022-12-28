@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
 
-body {
+
+/*Estilos gerais*/
+* {
     font-family: Verdana, sans-serif;
     margin: 0px;
     width: 100%;
     background-color: black;
     color: white;
+}
+
+body {
+    padding: 0px 0px 20px 0px;
 }
 
 main {
@@ -22,7 +28,12 @@ section {
     width: 95%;
 }
 
+span.monospace {
+    font-family: monospace;
+}
 
+
+/*Submeter novas quotes*/
 section.submeter {
     font-size: 2em;
 }
@@ -41,6 +52,7 @@ section.submeter > form > input {
 }
 
 
+/*A quote*/
 section.as-quotes {
     font-size: max(1.8em, 3.5vw);
 }
@@ -55,6 +67,30 @@ div.letras-pequenas {
     font-size: 0.5em;
 }
 
+
+/*Footer Input*/
+input#num-desta {
+    max-width: 35px;
+    width: fit-content;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1.0em;
+    text-align: right;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+
+/*Footer*/
 footer {
     margin: 20px 0px 0px 0px;
     width: 100%;
@@ -69,8 +105,4 @@ footer > p.submeter > a {
 }
 footer > p.submeter > a:hover {
     text-decoration: underline white;
-}
-
-span.monospace {
-    font-family: monospace;
 }
