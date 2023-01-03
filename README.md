@@ -1,3 +1,3 @@
-# Random Quote do Pai
+# Random Quote
 
 You know it
