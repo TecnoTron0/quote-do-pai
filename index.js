@@ -218,6 +218,20 @@ const quotes = [
     "Já está a funcionar! Isto é mais que relativo, isto é quântico!",
     "Devagarinho para não partir o biquinho.",
     "Não tenho muito jeito para bruxo.",
+    "Fazer contas é como ir ao ginásio tem que bater ferro muitas vezes! Ver os outros a treinar não cria bicep.",
+    "Há quem pinte o cabelo para ter inteligência artificial",
+    "GitHub... NÃO HÁ! Wolfram Alpha... NÃO HÁ! Feynman Lectures on Physics... NÃO HÁ! Jupyter Notebook... NÃO HÁ! Moodle... NÃO HÁ! ChatGPT... NÃO HÁ!",
+    "Vamos ver um filme. Podemos chamar a este filme - 'O homem do berbequim'.",
+    "Eu: 'Posso aplicar a técnica do apagador agora?' Pai: 'Pode aplicar SEMPRE a técnica do apagador. A técnica do apagador é universal. Não sei como ainda não mandaram levantar uma estátua minha com um apagador.'",
+    "Uma coisa é o manual de instruções do martelo outra é saber usar o martelo. A matemática é o manual de instruções do martelo mas na física temos de o saber e usar.",
+    "Vamos lá, vamos lá embora. A sopa já está na mesa. Sopa de nabos...",
+    "Isto não é Feynman nem nada, isto é Nunes da Silva!",
+    "Há o pêzinho e o pêzão, o têzinho e o ... outro.",
+    "'Bonito, bonito... são as pirâmides do Egipto. *um aluno ri-se* Pois, o que eu digo e o que vocês pensam... não é a mesma coisa... *puxa a máscara para baixo* Malandros!'",
+    "Pinar é natural",
+    "Você é um atleta dos exercícios resolvidos",
+    "Você enquanto não explorar isso vai estar no lado negro da força",
+    "Já parece um aluno do secundário, é tudo autoestrada em várias faixas e matar tudo pelo caminho"
 ]
 
 const target = document.getElementById("quote")
