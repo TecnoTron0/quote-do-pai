@@ -231,7 +231,10 @@ const quotes = [
     "Pinar é natural",
     "Você é um atleta dos exercícios resolvidos",
     "Você enquanto não explorar isso vai estar no lado negro da força",
-    "Já parece um aluno do secundário, é tudo autoestrada em várias faixas e matar tudo pelo caminho"
+    "Já parece um aluno do secundário, é tudo autoestrada em várias faixas e matar tudo pelo caminho",
+    "Posso usar a técnica do apagador? \n\n Então, não pode? Vocês depois desta aula até vão fazer uma estátua de mim, não pode ser de esferovite, e por baixo a dizer 'O Verdadeiro Chocolateiro'",
+    "(Diz para um aluno depois de ele ter ido ao quadro) \n\n 'Você está com um ar de quem perdeu a virgindade. Eu sei. Já senti isso.'",
+    "Meu amigo, você quer falar mas eu não tenho que perder a minha audição a ouvi-lo."
 ]
 
 const target = document.getElementById("quote")
