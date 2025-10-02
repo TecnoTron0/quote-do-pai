@@ -60,6 +60,7 @@ section.as-quotes > p {
     margin-top: min(200px, 20%);
 }
 section.as-quotes > p:last-child {
+    margin-top: min(40px, 10%);
     font-family: 'Imperial Script', cursive;
 }
 
